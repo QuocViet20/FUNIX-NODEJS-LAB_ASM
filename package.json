@@ -1,0 +1,16 @@
+{
+  "name": "node-first-app",
+  "version": "1.0.0",
+  "description": "NodeJs-first-app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "quocviet20",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
