@@ -30,12 +30,15 @@ form {
   padding: 0 1.5rem;
   display: flex;
   align-items: center;
+  
 }
 
 .main-header__nav {
   height: 100%;
-  display: none;
+  width: 100%;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .main-header__item-list {
@@ -197,6 +200,22 @@ form {
   color: white;
 }
 
+.user-message{
+  margin: auto;
+  width: 90%;
+  border: 1px solid rgb(29, 29, 235);
+  padding: 0.5rem;
+  border-radius: 3px;
+  background: rgb(180, 180, 234);
+  text-align: center;
+}
+
+.user-message--error{
+  background-color: red;
+  background-color: rgb(238, 135, 135);
+  color: red;
+}
+
 @media (min-width: 768px) {
   .main-header__nav {
     display: flex;
@@ -204,5 +223,8 @@ form {
 
   #side-menu-toggle {
     display: none;
+  }
+  .user-message{
+    width: 30rem;
   }
 }
